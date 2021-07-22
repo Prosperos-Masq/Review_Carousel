@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+}
+
+.container {
+  border: 2px black solid;
+  height: 480px;
+  width: 300px;
+}
+
+.image {
+  border-radius: 50%;
+  width: 150px;
+  height: 160px;
+}
+
+.look {
+  background: none;
+  border: none;
+  font-size: 25px;
+}
+
+.surprise {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
