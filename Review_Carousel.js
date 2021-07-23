@@ -12,8 +12,8 @@ const surprise = document.querySelector('.surprise');
 const people = [
     {
       pic: 'https://images.generated.photos/gTXnpA7huxsXPXF0SB_vu1q3nrwWJHJs60qYVfoix6o/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA3OTczOTQuanBn.jpg',
-      name: 'susan smith',
-      job: 'web developer',
+      name: 'Susan Smith',
+      job: 'Web Developer',
       bio: 'Cras quis enim laoreet, luctus nisl vehicula, vulputate turpis. Suspendisse sapien ipsum, hendrerit id lobortis sit amet, dignissim in dui. Vestibulum interdum felis vel tortor vulputate, at viverra purus posuere. Praesent quis commodo lorem. Praesent sagittis ex id justo pulvinar, in ullamcorper ex elementum.'
     },
   
@@ -26,8 +26,8 @@ const people = [
   
   {
       pic: 'https://news.stv.tv/wp-content/uploads/2021/03/5e66fe23e83e012c303bee319b943964-256x256.jpg',
-      name: 'peter jones',
-      job: 'intern',
+      name: 'Peter Jones',
+      job: 'Intern',
       bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit non est blandit eleifend. Integer id massa iaculis, vehicula augue ut, consectetur metus. Vestibulum et sapien odio. Mauris sed vulputate sapien. Donec orci urna, auctor eget auctor in, efficitur ac ante.'
     },
   
@@ -36,7 +36,14 @@ const people = [
       name: 'Chase McClurg',
       job: 'Paramedic',
       bio: 'Pellentesque consequat turpis nec nunc efficitur, non ultrices lorem dapibus. Nullam euismod metus sed est bibendum, sed hendrerit purus condimentum. Sed pulvinar dignissim semper. Mauris et condimentum sem, vestibulum euismod lacus. Quisque pellentesque at urna non sagittis.'
-    }
+    },
+
+    {
+        pic: 'https://www.stylist.co.uk/images/app/uploads/2019/07/12113815/black-woman-waiting-at-the-airport-crop-1562927911-1090x1090.jpg?w=256&h=256&fit=max&auto=format%2Ccompress',
+        name: 'Jazmine Matthews',
+        job: 'Street Outreach Coordinator',
+        bio: 'Quisque in felis et est convallis pharetra id vitae metus. Cras vehicula dui sed sollicitudin pretium. Quisque malesuada hendrerit nunc id egestas. Phasellus ac porta turpis. Duis mauris erat, auctor ut tortor in, facilisis aliquet eros. Integer ac mollis elit. Maecenas egestas at justo ut dignissim.'
+      }
 ];
 
 let currentItem = 0;

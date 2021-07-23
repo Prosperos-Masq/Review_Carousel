@@ -4,8 +4,13 @@ body {
 
 .container {
   border: 2px black solid;
-  height: 480px;
+  height: 620px;
   width: 300px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  font-size: 20px;
 }
 
 .image {
@@ -14,10 +19,14 @@ body {
   height: 160px;
 }
 
+h5 {
+    color: #0356fc;
+}
+
 .look {
   background: none;
   border: none;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .surprise {
